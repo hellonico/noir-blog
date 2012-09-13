@@ -6,7 +6,7 @@
 
 (defn -main [& m]
   (let [mode (or (first m) :dev)
-        port (Integer. (get (System/getenv) "PORT" "8080"))]
+        port (Integer. (get (System/getenv) "PORT" "8081"))]
     (models/initialize)
     (server/start port {:mode (keyword mode)
                         :ns 'noir-blog})))

@@ -8,6 +8,7 @@
 
 (def admin-links [{:url "/blog/" :text "Blog"}
                   {:url "/blog/admin" :text "Posts"}
+                  {:url "/start" :text "Upload"}
                   {:url "/blog/admin/users" :text "Users"}
                   {:url "/blog/logout" :text "Logout"}])
 
